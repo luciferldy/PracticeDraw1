@@ -25,6 +25,18 @@ HenCoder 绘制 1 练习项目
 
 练习做完，绘制第一期分享的内容也就掌握得差不多了。
 
+### 效果
+
+通过 ps 测量图形的宽高，在实际开发中应该会给出 dip 或者 dp 等单位。
+
+![drawArc](images/device-2017-07-27-drawArc.png)
+
+![drawPath](images/device-2017-07-27-drawPath.png)
+
+![histogram](images/device-2017-07-27-histogram.png)
+
+![piechart](images/device-2017-07-27-piechart.png)
+
 ### 关于有些方法无效
 
 现在的 Android 默认是开启了硬件加速的，而 Canvas 和 Paint 有一些方法是不支持硬件加速的，你需要把它手动关闭才行。硬件加速的支持情况和手动关闭硬件加速的方法你可以看一下这个 Android 的[官方文档](https://developer.android.com/guide/topics/graphics/hardware-accel.html)。
